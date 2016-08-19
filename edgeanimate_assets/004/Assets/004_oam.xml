@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:Logo-cic" name="004" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/icon.png" width="100" height="100" />
+
+  <require type="other" src="004.html" />
+
+  <require type="javascript" src="004_edge.js" />
+  <require type="javascript" src="edge_includes/edge.5.0.1.min.js" />
+  <require type="javascript" src="js/jquery-2.0.3.min.js" />
+
+  <require type="image" src="images/College-Educational-Logo.jpg" />
+  <require type="image" src="images/College-Educational.png" />
+  <require type="image" src="images/icon.png" />
+  <require type="image" src="images/Poster.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+  <require type="folder" src="js" />
+
+
+  <content><![CDATA[
+    <div class="Logo-cic"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="100" hidden="true"/>
+    <property name="default-height" defaultValue="100" hidden="true"/>
+    <property name="resizable" defaultValue="false" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="none" hidden="true"/>
+    <property name="html-page" defaultValue="004.html" hidden="true"/>
+  </properties>
+
+</widget>
